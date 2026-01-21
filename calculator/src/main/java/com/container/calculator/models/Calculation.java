@@ -13,8 +13,12 @@ public class Calculation {
     private Long id;
 
     private int sku;
-
+    
+    private Double dollarPrice;
+    private Double initialCost;
+    private Double taxPercentage;
     private Double finalCost;
+    private Double profitPercentage;
 
     private Double salePrice;
 
